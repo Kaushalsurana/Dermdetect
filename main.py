@@ -14,7 +14,7 @@ app = Flask(__name__, static_url_path='/static')
 # Loading the model
 model = load_model("final_skin_disease_model.h5")
 
-
+#testing
 
 # Define the route for the home page
 @app.route('/')
